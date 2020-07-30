@@ -23,7 +23,7 @@ a {
 }
 header {
   background: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, 0.9)),
-    url(./img/hero-bg.jpg) no-repeat fixed;
+    url(../../img/hero-bg.jpg) no-repeat fixed;
   background-position: center center;
   background-size: cover;
   height: 90vh;
@@ -147,7 +147,7 @@ nav {
 
 .services {
   background: linear-gradient(rgba(23, 194, 164, 0.9), rgba(23, 194, 164, 0.9)),
-    url(./img/services-bg.jpg) no-repeat fixed;
+    url(../../img/services-bg.jpg) no-repeat fixed;
   background-position: center center;
   background-size: cover;
   font-size: 1rem;
@@ -212,7 +212,7 @@ nav {
       rgba(231, 241, 248, 0.9),
       rgba(231, 241, 248, 0.9)
     ),
-    url(./img/team-bg.jpg) no-repeat fixed;
+    url(../../img/team-bg.jpg) no-repeat fixed;
   background-position: center center;
   background-size: cover;
   font-size: 1.05rem;
@@ -313,7 +313,7 @@ nav {
 
 .reviewssection {
   background: linear-gradient(rgba(215, 70, 128, 0.9), rgba(215, 70, 128, 0.9)),
-    url(img/testimonial-bg.jpg) no-repeat fixed;
+    url(../../img/testimonial-bg.jpg) no-repeat fixed;
   background-position: center center;
   background-size: cover;
   font-size: 1rem;
@@ -383,7 +383,7 @@ nav {
       rgba(255, 255, 255, 0.9),
       rgba(255, 255, 255, 0.9)
     ),
-    url(img/skill-bg.jpg) no-repeat;
+    url(../../img/skill-bg.jpg) no-repeat;
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
@@ -440,7 +440,7 @@ nav {
 
 .contact_section {
   background: linear-gradient(rgba(60, 84, 153, 0.9), rgba(60, 84, 153, 0.9)),
-    url(img/contact-bg.jpg) no-repeat fixed;
+    url(../../img/contact-bg.jpg) no-repeat fixed;
   background-size: cover;
   background-position: center center;
   color: white;
@@ -488,7 +488,7 @@ nav {
       rgba(255, 221, 153, 0.9),
       rgba(255, 221, 153, 0.9)
     ),
-    url(img/portfolio-bg.jpg) no-repeat scroll;
+    url(../../img/portfolio-bg.jpg) no-repeat scroll;
   background-size: cover;
   background-position: center center;
   text-align: center;
