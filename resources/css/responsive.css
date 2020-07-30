@@ -1,0 +1,209 @@
+@media screen and (max-width: 950px) {
+  .navbarss {
+    width: 63%;
+  }
+  .herotext {
+    font-size: 1.28em;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .navbarss {
+    display: none;
+  }
+  .navbar_disp {
+    transform: translateY(0);
+  }
+  .navbarmobile li:hover a {
+    color: white;
+  }
+
+  .navbarmobile li {
+    margin: 1rem auto;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+  }
+
+  .navbarmobile a {
+    color: rgb(150, 148, 148);
+  }
+  .closenav {
+    display: block;
+    font-size: 2.5rem;
+  }
+  .navicon {
+    display: block;
+    cursor: pointer;
+  }
+  .herotext {
+    font-size: 1.18em;
+  }
+  .herotext h1 {
+    font-size: 1.57em;
+  }
+  footer {
+    font-size: 1.05rem;
+  }
+  /* .activenav{
+      display: block;
+  } */
+}
+
+@media screen and (max-width: 630px) {
+  .herotext {
+    font-size: 1.08em;
+  }
+  .team_section h2,
+  .reviewssection .review_h2 {
+    font-size: 1.5em;
+  }
+  footer {
+    font-size: 0.95rem;
+  }
+  .contact_section .contact_headp {
+    width: 96%;
+  }
+  .contact_form input,
+  .contact_form textarea {
+    display: block;
+    width: 80%;
+    margin: 0.5em auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .herotext {
+    font-size: 1.04em;
+  }
+  .herotext h1 {
+    font-size: 1.5em;
+    width: 100%;
+    padding: 0.1em;
+  }
+  .herotext .submitbtn {
+    font-size: 0.9em;
+  }
+  .navbarmobile {
+    font-size: 0.92rem;
+  }
+  .services h2 {
+    font-size: 2em;
+  }
+  .services .services_top_text {
+    width: 85%;
+    font-size: 1.01em;
+  }
+  .port_headp {
+    width: 92%;
+    font-size: 0.9em;
+  }
+  .reviews_grids {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .right_rev {
+    align-items: center;
+  }
+  .contact_form {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .right_rev .right_top_rev {
+    width: 64%;
+  }
+  .team_section .team_headp {
+    width: 90%;
+  }
+  .team_section h2,
+  .reviewssection .review_h2 {
+    font-size: 1.35em;
+  }
+  .contact_headp {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .herotext h1 {
+    font-size: 1.4em;
+    padding: 0;
+  }
+  .left_logo img {
+    width: 5.5em;
+  }
+  .navicon {
+    font-size: 2.15em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .herotext {
+    font-size: 1em;
+  }
+  .herotext h1 {
+    font-size: 1.4em;
+  }
+
+  .grids_portfolio p {
+    font-size: 0.75em;
+  }
+  .grids_portfolio img {
+    width: 57%;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .reviews_grid_cont {
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  }
+  .right_rev .right_top_rev {
+    width: 60%;
+    font-size: 0.9em;
+    letter-spacing: 0.045em;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .left_logo img {
+    width: 3.65em;
+  }
+  .navicon {
+    font-size: 1.75em;
+  }
+  .herotext {
+    top: 45%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    font-size: 1.389em;
+  }
+  .herotext h1 {
+    font-size: 0.9em;
+  }
+  .herotext .submitbtn {
+    font-size: 0.65em;
+  }
+
+  .btn {
+    font-size: 0.6em;
+  }
+  .services h2 {
+    font-size: 1.5em;
+  }
+  .services_grids p {
+    font-size: 0.8em;
+  }
+
+  .reviewssection {
+    padding: 2.58em 0.2em;
+  }
+  .grids_portfolio p {
+    font-size: 0.75em;
+  }
+  .grids_portfolio img {
+    width: 45%;
+  }
+}
