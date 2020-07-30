@@ -3,19 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
+html{
   font-size: 125%;
   font-family: "Titillium Web", sans-serif;
   text-rendering: optimizeLegibility;
-  height: 100%;
   scroll-behavior: smooth;
-  /* width: 100%; */
+  overflow-x: hidden; 
 }
 body {
-  width: 100vw;
-  text-rendering: optimizeLegibility;
-  overflow-y: auto;
-  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
 }
 
 a {
@@ -51,9 +49,7 @@ nav {
   height: auto;
 }
 
-.stickynav {
-  position: sticky;
-}
+
 
 .navicon {
   font-size: 2.5em;
