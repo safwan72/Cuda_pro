@@ -24,7 +24,9 @@ navclose.addEventListener('click',function(){
 navbars.classList.toggle('navbar_disp');
 });
 
-
+$(function(){
+  $("a").creep();
+});
 
 
 
@@ -42,10 +44,8 @@ const appbportfolios = document.querySelector("#appsportfolios");
 const iconportfolios = document.querySelector("#iconsportfolios");
 
 const navbarlinks = document.querySelectorAll(".navbar li");
-console.log(navbarlinks);
 navbarlinks.forEach((e) => {
   e.addEventListener("click", function (es) {
-    console.log(e, es);
     navbarlinks.forEach((e) => {
       e.classList.remove("active");
     });
@@ -96,23 +96,23 @@ function tabs(e) {
 
 
 // -------------------smoothscrollplugin
-$(document).ready(function () {
-  $(".smoothlink").on("click", function (event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
-      $("html, body").animate(
-        {
-          scrollTop: $(hash).offset().top,
-        },
-        1000,
-        function () {
-          window.location.hash = hash;
-        }
-      );
-    }
-  });
-});
+// $(document).ready(function () {
+//   $(".smoothlink").on("click", function (event) {
+//     if (this.hash !== "") {
+//       event.preventDefault();
+//       var hash = this.hash;
+//       $("html, body").animate(
+//         {
+//           scrollTop: $(hash).offset(),
+//         },
+//         1000,
+//         function () {
+//           window.location.hash = hash;
+//         }
+//       );
+//     }
+//   });
+// });
 
 
 
