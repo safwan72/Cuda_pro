@@ -55,7 +55,10 @@ html {
 .passbox {
   position: relative;
 }
+input,button{
+  outline: none;
 
+}
 .inputbox {
   margin: 15px 0;
 }
