@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize css -->
+    <!-- <link rel="stylesheet" href="./normalize.css"> -->
+
+    <!-- custom Css -->
+    <link rel="stylesheet" href="./resources/css/formstyle.css">
+
+    <!-- favicon -->
+    <link rel='shortcut icon' type='image/x-icon' href="favicon.ico">
+
+    <!-- google fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet"> -->
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <title>Login Form</title>
+</head>
+
+<body>
+    <img src="./img/wave.png" alt="logoimage" class="waveimage">
+    <div class="container">
+        <div class="leftside">
+            <img src="./img/bg.svg" alt="bg">
+        </div>
+
+        <div class="rightside">
+            <img src="./img/avatar.svg" alt="Head Photo">
+            <h1>Welcome</h1>
+            <form class="formys">
+                <div class="inputbox">
+                    <span class="inid"><i class="fas fa-user"></i></span>
+                    <span class="intext">Username</span>
+                    <input type="text" id="inputtext" class="propsclass defaultborder">
+                </div>
+                <div class="passbox">
+                    <span class="passid"><i class="fas fa-lock "></i></span>
+                    <span class="passtext">Password</span>
+                    <input type="password" id="passtext" class="propsclass defaultborder">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="submitbtn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="./resources/js/formscript.js"></script>
+</body>
+
+</html>
