@@ -464,6 +464,7 @@ nav {
   border: 0.1rem solid #273a71;
   color: white;
   width: 45%;
+  outline: none;
 }
 .contact_form textarea {
   width: 90%;

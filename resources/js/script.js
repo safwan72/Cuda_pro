@@ -25,7 +25,10 @@ navbars.classList.toggle('navbar_disp');
 });
 
 $(function(){
-  $("a").creep();
+  $("a").creep({
+    speed:400,
+    offset:-30
+  });
 });
 
 
